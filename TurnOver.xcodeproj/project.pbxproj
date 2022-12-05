@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EE1CD0C1B572B2ED9111A4E /* Pods_TurnOverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B871FFEEEEF21EBA76F6547 /* Pods_TurnOverTests.framework */; };
+		65D17331F6C2A5B92FD28ABD /* Pods_TurnOver_TurnOverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9AD9DD21B56BCAE4D73C6B /* Pods_TurnOver_TurnOverUITests.framework */; };
 		7F75964A293DBD8400AF3F49 /* TurnOverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759649293DBD8400AF3F49 /* TurnOverApp.swift */; };
 		7F75964C293DBD8400AF3F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75964B293DBD8400AF3F49 /* ContentView.swift */; };
 		7F75964E293DBD8800AF3F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F75964D293DBD8800AF3F49 /* Assets.xcassets */; };
@@ -23,6 +25,7 @@
 		7F759680293DBF8600AF3F49 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75967F293DBF8600AF3F49 /* MotionManager.swift */; };
 		7F759682293DBFA700AF3F49 /* RealmClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759681293DBFA600AF3F49 /* RealmClient.swift */; };
 		7F759684293DBFBE00AF3F49 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759683293DBFBE00AF3F49 /* Ranking.swift */; };
+		A74ADC0FF187499C628544AF /* Pods_TurnOver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B6B1378C6770F29031A25 /* Pods_TurnOver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3385F2D96B453FF4507D4B2A /* Pods-TurnOver-TurnOverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOver-TurnOverUITests.release.xcconfig"; path = "Target Support Files/Pods-TurnOver-TurnOverUITests/Pods-TurnOver-TurnOverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		382B6B1378C6770F29031A25 /* Pods_TurnOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B871FFEEEEF21EBA76F6547 /* Pods_TurnOverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnOverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F759646293DBD8400AF3F49 /* TurnOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnOver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F759649293DBD8400AF3F49 /* TurnOverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOverApp.swift; sourceTree = "<group>"; };
 		7F75964B293DBD8400AF3F49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +68,12 @@
 		7F75967F293DBF8600AF3F49 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		7F759681293DBFA600AF3F49 /* RealmClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmClient.swift; sourceTree = "<group>"; };
 		7F759683293DBFBE00AF3F49 /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		9E9AD9DD21B56BCAE4D73C6B /* Pods_TurnOver_TurnOverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnOver_TurnOverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5829CDD340B8A1505762DC0 /* Pods-TurnOverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOverTests.release.xcconfig"; path = "Target Support Files/Pods-TurnOverTests/Pods-TurnOverTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACBDE2E98F8642E63774F881 /* Pods-TurnOver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOver.debug.xcconfig"; path = "Target Support Files/Pods-TurnOver/Pods-TurnOver.debug.xcconfig"; sourceTree = "<group>"; };
+		B31E16EFD91B74007FA004FA /* Pods-TurnOver-TurnOverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOver-TurnOverUITests.debug.xcconfig"; path = "Target Support Files/Pods-TurnOver-TurnOverUITests/Pods-TurnOver-TurnOverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B34A52996CEBDA3F89F71EEC /* Pods-TurnOver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOver.release.xcconfig"; path = "Target Support Files/Pods-TurnOver/Pods-TurnOver.release.xcconfig"; sourceTree = "<group>"; };
+		DF6D3A35C0295F8D2B2001CD /* Pods-TurnOverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOverTests.debug.xcconfig"; path = "Target Support Files/Pods-TurnOverTests/Pods-TurnOverTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74ADC0FF187499C628544AF /* Pods_TurnOver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE1CD0C1B572B2ED9111A4E /* Pods_TurnOverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +97,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D17331F6C2A5B92FD28ABD /* Pods_TurnOver_TurnOverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0ED4EBBC5A78A9D76996A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				382B6B1378C6770F29031A25 /* Pods_TurnOver.framework */,
+				9E9AD9DD21B56BCAE4D73C6B /* Pods_TurnOver_TurnOverUITests.framework */,
+				3B871FFEEEEF21EBA76F6547 /* Pods_TurnOverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F75963D293DBD8400AF3F49 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +121,8 @@
 				7F759659293DBD8800AF3F49 /* TurnOverTests */,
 				7F759663293DBD8900AF3F49 /* TurnOverUITests */,
 				7F759647293DBD8400AF3F49 /* Products */,
+				FA8BC32A7995EE17B37B0E7C /* Pods */,
+				6D0ED4EBBC5A78A9D76996A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +197,19 @@
 			path = GameView;
 			sourceTree = "<group>";
 		};
+		FA8BC32A7995EE17B37B0E7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDE2E98F8642E63774F881 /* Pods-TurnOver.debug.xcconfig */,
+				B34A52996CEBDA3F89F71EEC /* Pods-TurnOver.release.xcconfig */,
+				B31E16EFD91B74007FA004FA /* Pods-TurnOver-TurnOverUITests.debug.xcconfig */,
+				3385F2D96B453FF4507D4B2A /* Pods-TurnOver-TurnOverUITests.release.xcconfig */,
+				DF6D3A35C0295F8D2B2001CD /* Pods-TurnOverTests.debug.xcconfig */,
+				A5829CDD340B8A1505762DC0 /* Pods-TurnOverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F75966A293DBD8900AF3F49 /* Build configuration list for PBXNativeTarget "TurnOver" */;
 			buildPhases = (
+				593FCFFE2CC460D58306BB3D /* [CP] Check Pods Manifest.lock */,
 				7F759642293DBD8400AF3F49 /* Sources */,
 				7F759643293DBD8400AF3F49 /* Frameworks */,
 				7F759644293DBD8400AF3F49 /* Resources */,
+				5498C62799AFDF7C1CA43F6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F75966D293DBD8900AF3F49 /* Build configuration list for PBXNativeTarget "TurnOverTests" */;
 			buildPhases = (
+				3AB7EC70997E07D65E7BAB5E /* [CP] Check Pods Manifest.lock */,
 				7F759652293DBD8800AF3F49 /* Sources */,
 				7F759653293DBD8800AF3F49 /* Frameworks */,
 				7F759654293DBD8800AF3F49 /* Resources */,
@@ -212,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F759670293DBD8900AF3F49 /* Build configuration list for PBXNativeTarget "TurnOverUITests" */;
 			buildPhases = (
+				1688A3DB35F74026CA8EB35D /* [CP] Check Pods Manifest.lock */,
 				7F75965C293DBD8900AF3F49 /* Sources */,
 				7F75965D293DBD8900AF3F49 /* Frameworks */,
 				7F75965E293DBD8900AF3F49 /* Resources */,
+				1FF3D0A1117E4330BB7B5988 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +339,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1688A3DB35F74026CA8EB35D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnOver-TurnOverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FF3D0A1117E4330BB7B5988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurnOver-TurnOverUITests/Pods-TurnOver-TurnOverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurnOver-TurnOverUITests/Pods-TurnOver-TurnOverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TurnOver-TurnOverUITests/Pods-TurnOver-TurnOverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB7EC70997E07D65E7BAB5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnOverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5498C62799AFDF7C1CA43F6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurnOver/Pods-TurnOver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurnOver/Pods-TurnOver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TurnOver/Pods-TurnOver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		593FCFFE2CC460D58306BB3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnOver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F759642293DBD8400AF3F49 /* Sources */ = {
@@ -397,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -463,6 +611,7 @@
 		};
 		7F75966B293DBD8900AF3F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBDE2E98F8642E63774F881 /* Pods-TurnOver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +641,7 @@
 		};
 		7F75966C293DBD8900AF3F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34A52996CEBDA3F89F71EEC /* Pods-TurnOver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -521,6 +671,7 @@
 		};
 		7F75966E293DBD8900AF3F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6D3A35C0295F8D2B2001CD /* Pods-TurnOverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +692,7 @@
 		};
 		7F75966F293DBD8900AF3F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5829CDD340B8A1505762DC0 /* Pods-TurnOverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -561,6 +713,7 @@
 		};
 		7F759671293DBD8900AF3F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31E16EFD91B74007FA004FA /* Pods-TurnOver-TurnOverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,6 +732,7 @@
 		};
 		7F759672293DBD8900AF3F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3385F2D96B453FF4507D4B2A /* Pods-TurnOver-TurnOverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
