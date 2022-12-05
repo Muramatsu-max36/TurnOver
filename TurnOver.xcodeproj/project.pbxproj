@@ -14,6 +14,15 @@
 		7F75965B293DBD8800AF3F49 /* TurnOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75965A293DBD8800AF3F49 /* TurnOverTests.swift */; };
 		7F759665293DBD8900AF3F49 /* TurnOverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759664293DBD8900AF3F49 /* TurnOverUITests.swift */; };
 		7F759667293DBD8900AF3F49 /* TurnOverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759666293DBD8900AF3F49 /* TurnOverUITestsLaunchTests.swift */; };
+		7F759674293DBE9600AF3F49 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759673293DBE9600AF3F49 /* HomeView.swift */; };
+		7F759676293DBEF100AF3F49 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759675293DBEF100AF3F49 /* HomeViewModel.swift */; };
+		7F759678293DBF1200AF3F49 /* RankingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759677293DBF1200AF3F49 /* RankingItemView.swift */; };
+		7F75967A293DBF3F00AF3F49 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759679293DBF3F00AF3F49 /* SettingView.swift */; };
+		7F75967C293DBF4F00AF3F49 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75967B293DBF4F00AF3F49 /* GameView.swift */; };
+		7F75967E293DBF6600AF3F49 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75967D293DBF6600AF3F49 /* GameViewModel.swift */; };
+		7F759680293DBF8600AF3F49 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75967F293DBF8600AF3F49 /* MotionManager.swift */; };
+		7F759682293DBFA700AF3F49 /* RealmClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759681293DBFA600AF3F49 /* RealmClient.swift */; };
+		7F759684293DBFBE00AF3F49 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F759683293DBFBE00AF3F49 /* Ranking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		7F759660293DBD8900AF3F49 /* TurnOverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnOverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F759664293DBD8900AF3F49 /* TurnOverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOverUITests.swift; sourceTree = "<group>"; };
 		7F759666293DBD8900AF3F49 /* TurnOverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F759673293DBE9600AF3F49 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7F759675293DBEF100AF3F49 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7F759677293DBF1200AF3F49 /* RankingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingItemView.swift; sourceTree = "<group>"; };
+		7F759679293DBF3F00AF3F49 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7F75967B293DBF4F00AF3F49 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7F75967D293DBF6600AF3F49 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7F75967F293DBF8600AF3F49 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		7F759681293DBFA600AF3F49 /* RealmClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmClient.swift; sourceTree = "<group>"; };
+		7F759683293DBFBE00AF3F49 /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,11 @@
 			children = (
 				7F759649293DBD8400AF3F49 /* TurnOverApp.swift */,
 				7F75964B293DBD8400AF3F49 /* ContentView.swift */,
+				7F759685293DBFCF00AF3F49 /* HomeView */,
+				7F759686293DBFDE00AF3F49 /* GameView */,
+				7F75967F293DBF8600AF3F49 /* MotionManager.swift */,
+				7F759681293DBFA600AF3F49 /* RealmClient.swift */,
+				7F759683293DBFBE00AF3F49 /* Ranking.swift */,
 				7F75964D293DBD8800AF3F49 /* Assets.xcassets */,
 				7F75964F293DBD8800AF3F49 /* Preview Content */,
 			);
@@ -125,6 +148,26 @@
 				7F759666293DBD8900AF3F49 /* TurnOverUITestsLaunchTests.swift */,
 			);
 			path = TurnOverUITests;
+			sourceTree = "<group>";
+		};
+		7F759685293DBFCF00AF3F49 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				7F759673293DBE9600AF3F49 /* HomeView.swift */,
+				7F759675293DBEF100AF3F49 /* HomeViewModel.swift */,
+				7F759677293DBF1200AF3F49 /* RankingItemView.swift */,
+				7F759679293DBF3F00AF3F49 /* SettingView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		7F759686293DBFDE00AF3F49 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				7F75967B293DBF4F00AF3F49 /* GameView.swift */,
+				7F75967D293DBF6600AF3F49 /* GameViewModel.swift */,
+			);
+			path = GameView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F759674293DBE9600AF3F49 /* HomeView.swift in Sources */,
 				7F75964C293DBD8400AF3F49 /* ContentView.swift in Sources */,
 				7F75964A293DBD8400AF3F49 /* TurnOverApp.swift in Sources */,
+				7F75967A293DBF3F00AF3F49 /* SettingView.swift in Sources */,
+				7F759684293DBFBE00AF3F49 /* Ranking.swift in Sources */,
+				7F759680293DBF8600AF3F49 /* MotionManager.swift in Sources */,
+				7F75967E293DBF6600AF3F49 /* GameViewModel.swift in Sources */,
+				7F759676293DBEF100AF3F49 /* HomeViewModel.swift in Sources */,
+				7F759678293DBF1200AF3F49 /* RankingItemView.swift in Sources */,
+				7F759682293DBFA700AF3F49 /* RealmClient.swift in Sources */,
+				7F75967C293DBF4F00AF3F49 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
